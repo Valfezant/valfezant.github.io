@@ -46,6 +46,7 @@ body
   overflow-x:hidden;
 
   background-color:#7e6d7e;
+  /*background-color:#4c3c52;*/
 }
 
 
@@ -100,7 +101,7 @@ body
 
 .sectionButton
 {
-  padding: 0.5% 1%;
+  padding: 0.7% 1% 0.5% 1%;
   margin: 0 0.7% 0 0;
 
   min-width: 10%; 
@@ -110,16 +111,26 @@ body
   text-align: center;
   display: inline-block;
 
-  background-color: rgb(196, 181, 13);
+  background-color: rgb(84, 50, 65);
 
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionButton:hover
+{
+  background-color: rgb(125, 46, 46);
 }
 
 .sectionButton>a
 {
   padding: 0;
   margin: 0 0 1.5% 0;
+  
+  display: block;
+  height: 100%;
+  width: 100%;
+  
   
   text-align: center;
 
@@ -227,13 +238,13 @@ body
 
 .projectShowcaseContainer>h2
 {
-  margin: 0 0 1% 0.5%;
+  margin: 0 0 1.5% 0.5%;
   text-align: center;
 
   color: rgb(0, 0, 0);
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight:750;
+  font-weight: 750;
 }
 
 
@@ -250,8 +261,15 @@ body
   display: inline-block;
   float: none;
   
-  background-color: rgb(196, 181, 13);
+  /*background-color: rgb(125, 46, 46);*/
   text-align: center;
+
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+
+  border-radius:10px;
 }
 
 .projectShowcase>img
@@ -262,7 +280,16 @@ body
 
 .projectShowcase>h3
 {
-  margin: 0.5%;
+  margin: 0.5% 0.5% 2% 0.5%;
+  font-weight: 600;
+}
+
+.projectShowcase:hover
+{
+  background-color: rgb(84, 50, 65);
+  /*background-color: #1e121d55;*/
+
+  color: white;
 }
 
 
@@ -295,7 +322,10 @@ body
 
 .projectShowcaseRow>.projectShowcase>h4
 {
-  margin: 1%;
+  margin: 0  0 2% 0;
+
+  font-size: 25px;
+  font-weight: 400;
 }
 
 
@@ -332,4 +362,85 @@ body
 {
   margin: 0 0 1% 0;
   text-align: left;
+}
+
+
+/*///PROJECT PAGE///*/
+.projectTitle
+{
+  margin: 5% 0 3% 0;
+  
+  width: 100%;
+  
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.projectTitle>h1
+{
+  margin: 0;
+}
+
+.projectImage
+{
+  margin: 0 20%;
+  padding: 0;
+
+  width: 60%;
+
+  text-align: center;
+}
+
+
+
+.projectStatsContainer
+{
+  padding: 0;
+  margin: 2% 5%;
+
+  width: 90%;
+  
+  text-align: center;
+  display: flex;
+}
+
+.stat
+{
+  padding: 0;
+  margin: 0 5%;
+  
+  width: 10%;
+  min-height: 100%;
+
+  display: inline-block;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 80%;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.statSeparator>h3
+{
+  padding: 50% 0;
+  margin: 0 1%;
+  
+  display: inline-block;
+}
+
+.statSeparator
+{
+  min-width: 4px;
+  min-height: 100px;
+
+  background-color: black;
+
+  display: inline-block;
 }
