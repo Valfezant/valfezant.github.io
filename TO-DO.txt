@@ -1,0 +1,32 @@
+HOME
+- Introduzione personale breve?
+
+ABOUT
+- Introduzione personale più dettagliata? 
+	- Player experience
+	- Su cosa vorrei lavorare?
+	- Hobby, gaming
+
+PAGINE
+- Progetti teamwork
+- LLama fight?
+- Antura
+- Paper tactics?
+
+- Monkey
+	- Build? O playthrough?
+	- Sezione migliorie?
+- Individuopolis
+	- Screen gameplay
+	- thumbnail
+
+
+CSS
+- Migliora selezione progetto
+- Diversi colori se progetti team o individuali?
+- Colore per sezione corrente
+- Colore sfondo
+- Dimensione textbox nei progetti
+- Freccine per prev/post projects?
+- Aprire immagini?
+

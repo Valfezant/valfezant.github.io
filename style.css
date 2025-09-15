@@ -476,6 +476,13 @@ body
   font-size: 30px;
 }
 
+.projectDescriptionBox>p>a>img
+{
+  margin: 0 0 7% 2%;
+  width: 50%;
+  float: right;
+}
+
 
 
 .projectScreens
