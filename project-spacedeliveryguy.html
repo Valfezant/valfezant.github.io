@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin" />
     <title>Space Delivery Guy - Valeria Passarella</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="IMGs/favicon.ico"/>
@@ -33,7 +34,7 @@
     </div>
 
     <div class="projectImage">
-      <img src="IMGs/ProjectMedia/Individuopolis/Screenshot_1.png" style="width:100%;height:100%;"> 
+      <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay2.png" alt="SDG gameplay screenshot" style="width:100%;height:100%;"> 
     </div>
 
     <div class="projectStatsContainer">
@@ -79,66 +80,147 @@
         ship’s movement onto the packages.<br>
         <br>
         The player controls only the Space Section directly, while the Cargo Section is affected 
-        by the movement of the ship. Inside of the Cargo hold, placing certain coloured packages 
+        by the movement of the ship. Inside of the cargo hold, placing certain coloured packages 
         onto the corresponding platforms will grant a defensive or offensive upgrade to the ship. 
+      </p>
+    </div>
 
+    <div class="projectDescriptionImages">
+      <a href="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay1.gif" target="_blank" id="imageLink">
+        <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay1.gif" alt="HUD Gameplay gif" style="width:40%;height:40%;">
+      </a>
+    </div>
+
+
+
+    <div class="projectDescriptionBox">
+      <h3>Team Project</h3>
+      <p>
+        I was one of two game designers working on the project. I contributed to the game as a 
+        whole (concept elaboration and gameplay development, writing and updating the GDD, testing), 
+        but I mainly focused on designing the packages, Cargo Section, and UI/UX.<br>
+        <br>
+        As team leader, I also organised the team, determined and assigned tasks, and kept weekly logs 
+        of feedback and goals.
+      </p>
+    </div>
+    
+    <div class="projectDescriptionBox">
+      <h3>The Cargo Section</h3>
+      <!--<div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_CargoandUI.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_CargoandUI.png" alt="HUD SDG_HUDsketch">
+        </a>
+      </div>-->
+      <p>
+        The Cargo Section, along with the packages inside it, is at the heart of the concept. 
+        They must receive part of the player’s attention at all times, and they set <em>SpaceDeliveryGuy</em> 
+        apart from other space-themed top-down shooters. For these reasons, we wanted them to be an 
+        integral part of the gameplay, interesting and fun to interact with, but also clear and intuitive.
+      </p>
+    </div>
+
+    <div class="projectDescriptionBox">
+      <h4>The Packages</h4>
+      <p>
+        Packages come in three types: green, red (which can activate the player’s cannons), and blue 
+        (which can recharge the player’s armor). HP and weight vary depending on the type and size, 
+        but all will be damaged by crashing against the walls of the cargo hold or each other. 
+        At the end of each day, the player can earn money by selling their packages: this encourages 
+        the player to care for their cargo and avoid risky manoeuvres that would destroy their packages.<br>
+        <br>
+        Multiple packages can be active at the same time, with red packages granting different kinds 
+        of shot depending on their shape and allowing for different pattern combinations. 
+        The player is thus motivated to seek out more packages and hold on to them even when they 
+        already have one of each type.<br>
+        <br>
+        Especially on harder levels, packages will break regularly for most players. To mediate this, 
+        and ensure that the player always has at least some healthy packages inside their cargo hold, 
+        random packages can be found floating in space or dropped by destroyed enemies, ensuring an 
+        almost constant turnover.<br>
+        <br>
+        During any playthrough, packages will be moving around a lot inside the cargo hold: the different 
+        colours and shapes make them immediately recognisable at a glance, even in the middle of the action.
+      </p>
+    </div>
+    
+    <div class="projectDescriptionBox">
+      <h4>The Cargo Hold</h4>
+      <div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_CargoHold.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_CargoHold.png" alt="HUD SDG_HUDsketch">
+        </a>
+      </div>
+      <p>
+        In designing the cargo room I experimented with a few different shapes and layouts allowing for 
+        different interactions between it and the packages. We settled on a simple and readable layout, 
+        with every platform being reachable at all times: two red platforms (which activate shot packages) 
+        at the sides of the cargo hold, giving the player many opportunities to use them even when moving 
+        around quickly, and one blue platform (which activates armor packages) at the far end, rewarding 
+        a daring player which pushes forward with a defensive boost.<br>
+        <br>
+        At the center is an area which heals any packages that enter it, enhancing the overall durability 
+        of the player’s stock. A few short walls were later added after testing, sectioning the floor 
+        space to help the player break up groups of packages and guide them to the intended platforms.<br>
+        <br>
+        The cargo hold is an essential part of the player’s interaction with the packages, but it must 
+        not distract from them: for this reason, it’s spacious and plainly-textured, moody but unintrusive. 
+        The platforms glow when active, making them stand out from the rest of the scene and clearly 
+        indicating the status of the player’s upgrades.
+      </p>
+    </div>
+
+    <div class="projectDescriptionBox">
+      <h3>UI/UX</h3>
+      <p>
+        I closely worked with the Concept Art department to develop the game’s visual interface. 
+        We wanted it to further enhance the chosen setting and artstyle, based on retrofuturism and the 
+        series <em>Cowboy Bebop</em>, but it also needed to communicate a great amount of gameplay information 
+        in a clear and concise way.<br>
+        <br>
+        To contribute to the game’s unique identity and keep with the stated visual inspirations, 
+        we wanted the UI to feel like a physical object, like the ship’s control panel itself. 
+        As such, some of its elements emulate analog knobs and buttons, and all digital items such 
+        as health bars are presented on tiny displays, rather than abstractly superimposed on the interface.
+      </p>
+    </div>
+
+    <div class="projectDescriptionBox">
+      <h4>The HUD</h4>
+      <div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_HUDsketch.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_HUDsketch.png" alt="HUD SDG_HUDsketch">
+        </a>
+        <p>Initial HUD sketch</p>
+      </div>
+      <p>
+        The main HUD had to be split into two screens, one for each part of the core gameplay 
+        (Driving and Cargo Sections). We decided on an asymmetrical split, as the simplified design of the 
+        Cargo Section required less space to be clearly readable. The initial layout for the HUD 
+        attempted to convey too much information, which made it appear cluttered and confusing.<br>
+        <br> 
+        To solve this, some non-essential mechanics were cut, and other UI elements were incorporated 
+        into the game scene. For example, the indicator for the active platforms, initially a series 
+        of lights and symbols, was replaced by the platforms themselves lighting up upon activation.  
       </p>
     </div>
 
 
-
-    <div class="projectDescriptionBox">
-      <h3>Argomento</h3>
-      <p>Morpheus has been moody of late, and I have so far been unable 
-        to determine the proximate cause of this change in behavior. 
-        This is a problem with n-variable systems: at arbitrary levels of 
-        sophistication, minute perturbations become unquantifiable. Is personality nothing more than the tidal change in a non-linear 
-        system? And if so, what is the 'moon,' what force shapes these tides?
-        Morpheus could tell me, if only Morpheus could model its own behavior 
-        -- but this would require a system orders of magnitude more complex to 
-        execute a simlation of its own identity.</p>
-    </div>
-    
-    <div class="projectDescriptionBox">
-      <h3>Argomento</h3>
-      <p>Morpheus has been moody of late, and I have so far been unable 
-        to determine the proximate cause of this change in behavior. 
-        This is a problem with n-variable systems: at arbitrary levels of 
-        sophistication, minute perturbations become unquantifiable. Is personality nothing more than the tidal change in a non-linear 
-        system? And if so, what is the 'moon,' what force shapes these tides?
-        Morpheus could tell me, if only Morpheus could model its own behavior 
-        -- but this would require a system orders of magnitude more complex to 
-        execute a simlation of its own identity.</p>
-    </div>
-
-    <div class="projectDescriptionBox">
-      <h3>Argomento</h3>
-      <p>Morpheus has been moody of late, and I have so far been unable 
-        to determine the proximate cause of this change in behavior. 
-        This is a problem with n-variable systems: at arbitrary levels of 
-        sophistication, minute perturbations become unquantifiable. Is personality nothing more than the tidal change in a non-linear 
-        system? And if so, what is the 'moon,' what force shapes these tides?
-        Morpheus could tell me, if only Morpheus could model its own behavior 
-        -- but this would require a system orders of magnitude more complex to 
-        execute a simlation of its own identity.</p>
-    </div>
-
-
-
     <div class="projectScreens">
-      <img src="IMGs/ProjectMedia/Individuopolis/Screenshot_1.png" style="width:40%;height:40%;">
-      <img src="IMGs/ProjectMedia/Individuopolis/Screenshot_1.png" style="width:40%;height:40%;">
+      <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay3.png" alt="SDG gameplay screenshot" style="width:40%;height:40%;">
+      <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay4.png" alt="SDG gameplay Screenshot" style="width:40%;height:40%;">
+      <iframe width="728" height="409" src="https://www.youtube.com/embed/cbGGaQxaXkU?si=P5xjwQRdvRzi0ccP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
 
     <div class="downloadExe">
-      <a href="IMGs/ProjectMedia/Individuopolis/" download="Individuopolis_Build_1.03">Download the build!</a>
+      <!--<a href="IMGs/ProjectMedia/Individuopolis/" download="Individuopolis_Build_1.03">Download the build!</a>-->
     </div>
 
 
     <div>
-      <div class="projectNavPost"><a href="about.html">Following Project: None</a></div>
-      <div class="projectNavPrev"><a href="about.html">Previous Project: Monkey (Don't) See</a></div>
+      <div class="projectNavPost"><a href="project-individuopolis.html">Following Project: <b><em></em>Individuopolis</b></a></div>
+      <div class="projectNavPrev"><a href="project-monkeydontsee.html">Previous Project: Monkey (Don't) See>></a></div>
     </div>
 
     <div class="footer" id="contactsFooter">
