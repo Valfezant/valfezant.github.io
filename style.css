@@ -491,7 +491,7 @@ body
 .projectDescriptionBox>.projectDescriptionImages
 {
   margin: 0 0 7% 2%;
-  width: 40%;
+  max-width: 40%;
   float: right;
 
   align-items: center;
@@ -528,6 +528,18 @@ body
   display: inline-block;
   align-items: center;
   text-align: center;
+}
+
+.projectScreens>a
+{
+  margin: 0 1% 3% 1%;
+  color: transparent;
+  list-style: none;
+}
+
+.projectScreens>a>img
+{
+  margin: 0 0 1% 0;
 }
 
 .projectScreens>img

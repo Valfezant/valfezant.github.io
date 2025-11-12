@@ -18,7 +18,6 @@ PAGINE
 	- Sezione migliorie?
 - Individuopolis
 	- Screen gameplay
-	- thumbnail
 
 
 CSS
@@ -27,6 +26,5 @@ CSS
 - Colore per sezione corrente
 - Colore sfondo
 - Dimensione textbox nei progetti
-- Freccine per prev/post projects?
-- Aprire immagini?
+
 
