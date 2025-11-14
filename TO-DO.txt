@@ -1,6 +1,3 @@
-HOME
-- Introduzione personale breve?
-
 ABOUT
 - Introduzione personale più dettagliata? 
 	- Player experience
@@ -22,8 +19,11 @@ PAGINE
 CSS
 - Migliora selezione progetto
 - Diversi colori se progetti team o individuali?
-- Colore per sezione corrente
 - Colore sfondo
 - Dimensione textbox nei progetti
+- altri font?
+
+- comprimere meglio icone dei progetti
+
 
 

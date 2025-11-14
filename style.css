@@ -209,17 +209,50 @@ body
 /*///HOME PAGE///*/
 .introBox
 {
-  padding: 2%;
+  padding: 2% 2% 2% 2%;
   margin: 2% 15% 2% 15%;
+
+  position: relative;
   
   height: 20%;
   width: 70%;
   
   background-color: rgb(84, 50, 65);
+  border-radius: 5px;
+}
 
-  font-size: 20px;
+.introBox>p
+{
+  margin: 0 12% 0 4%;
+  
+  font-size: 23px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.4;
   color: whitesmoke;
   font-family: Verdana, Tahoma, sans-serif;
+}
+
+.introBox>h3
+{
+  margin: 0 4% 1% 0;
+  
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.3;
+  color: whitesmoke;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.introBox>img
+{
+  margin: 0;
+  
+  position: absolute;
+  right: -5%;
+  top: 20%;
+  z-index: 10;
 }
 
 
