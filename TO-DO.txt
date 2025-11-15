@@ -16,7 +16,4 @@ CSS
 - Dimensione textbox nei progetti
 - altri font?
 
-- comprimere meglio icone dei progetti
-
-
 
