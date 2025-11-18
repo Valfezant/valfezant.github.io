@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin" />
+    <title>The Adblocker - Valeria Passarella</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="IMGs/favicon.ico"/>
+  </head>
+  
+  <body>
+    <div class="header"> 
+      <h1> Valeria Passarella </h1> 
+      <h2> Game Designer </h2>
+      <div class="sectionLinks"> 
+        <div class="sectionButton"> 
+          <a href="index.html">Home</a> 
+        </div>
+        <div class="sectionButton">
+          <a href="portfolio.html">Portfolio</a> 
+        </div>
+        <div class="sectionButton">
+          <a href="about.html">About</a> 
+        </div>
+        <div class="sectionButton">
+          <a href="#contactsFooter">Contact</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="projectTitle">
+      <h1>The Adblocker</h1>
+    </div>
+
+    <div class="projectImage">
+      <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_Screenshot1.png" target="_blank" id="imageLink">
+        <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_Screenshot1.png" alt="The Adblocker gameplay screenshot" style="width:100%;height:100%;"> 
+      </a>
+    </div>
+
+    <div class="projectStatsContainer">
+      <!--<div class="statSeparator"></div>-->
+
+      <div class="stat">
+        <h3>
+          • Game Design
+        </h3>
+      </div>
+      
+      <div class="statSeparator"></div>
+
+      <div class="stat">
+        <h3>Team project<br>(17 people)</h3>
+      </div>
+
+      <div class="statSeparator"></div>
+
+      <div class="stat">
+        <h3>6 months<br>(2025)</h3>
+      </div>
+
+      <div class="statSeparator"></div>
+
+      <div class="stat">
+        <!---<h3>Unity 5</h3>--->
+        <img src="IMGs/Icons/Unity_icon2.png" style="width:50%;height:50%;">
+      </div>
+
+      <!--<div class="statSeparator"></div>-->
+    </div>
+
+    <div class="projectPitchBox">
+      <p>
+        <em>The Adblocker</em> is a stealth game where you must sneak into the offices 
+        of a company that’s flooding the world with pop-ups and destroy their servers.<br>
+        <br>
+        In a near future where everyone is wearing XR visors to better browse 
+        the internet, big companies constantly produce and share pop-ups to 
+        advertise their products directly to the eyes of both the public and 
+        their own workers. The protagonist decides to infiltrate one of these 
+        companies, to end the AI that took over their operations.<br>
+        <br>
+        The player must get through each floor without being noticed by the workers. 
+        Over time, they will also receive pop-ups to block their vision and 
+        threaten their cover: they have to be manually closed, but some can 
+        also be shared with the workers, turning them from a hindrance into a tool.
+      </p>
+    </div>
+
+    <!--<div class="projectDescriptionImages">
+      <a href="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay1.gif" target="_blank" id="imageLink">
+        <img src="IMGs/ProjectMedia/SpaceDeliveryGuy/SDG_Gameplay1.gif" alt="HUD Gameplay gif" style="width:40%;height:40%;">
+      </a>
+    </div>-->
+
+
+
+    <div class="projectDescriptionBox">
+      <h3>Team Project</h3>
+      <p>
+        I was one of two game designers working on the project. 
+        My main responsibilities, aside from updating the GDD and keeping 
+        weekly progress logs, were designing the Pop-ups and UI/UX. 
+        I also contributed some level design.
+      </p>
+    </div>
+    
+    <div class="projectDescriptionBox">
+      <h3>Pop-Ups</h3>
+      <div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_Popups.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_Popups.png" alt="Pop-up examples">
+        </a>
+        <p>Pop-up examples</p>
+      </div>
+      <p>
+        When the player approaches Transmitters, pop-ups will appear on their screen. 
+        Clicking on the “close” button will remove them, while the “share” button allows 
+        them to be passed onto enemies or objects in the scene. Sharable pop-ups exist 
+        in three types, each with a different use: image (block the enemy’s vision for 
+        a few seconds), audio (attract enemies towards them), and object (block enemies’ path).<br>
+        <br>
+        <em>The Adblocker</em> revolves around pop-ups. They serve as both the main conflict and 
+        main mechanic of the game. It was important that they be balanced properly, 
+        resulting in an interesting obstacle that's fun to interact with. Interaction 
+        with them is required frequently to proceed, and the sharing method is easy and intuitive.
+      </p>
+    </div>
+
+    <div class="projectDescriptionBox">
+      <h4>Transmitters</h4>
+      <div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_Transmitter.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_Transmitter.png" alt="Transmitter">
+        </a>
+        <p>A transmitter sending sharable pop-ups</p>
+      </div>
+      <p>
+        The pop-ups were designed to emulate real-life pop-up ads, both in appearance and function: 
+        they are big and numerous, quickly covering the screen with bright graphics if left unchecked. 
+        To regulate their frequency and control the flow of gameplay, they can only be received 
+        from Transmitters, deliberately placed around the environment to best suit the level design.<br>
+        <br>
+        Each Transmitter always shares the same types of pop-ups, indicated by the colour of the 
+        light it casts, in regular intervals, allowing the player to strategise. 
+        This way we could also ensure that the player always has access to the pop-ups required 
+        to beat the level, even if they close the first one they receive.
+      </p>
+    </div>
+    
+    <div class="projectDescriptionBox">
+      <h4>Pop-Up Visuals</h4>
+      <p>
+        As is expected of spam, pop-ups in <em>The Adblocker</em> are colourful and often garish, 
+        serving to catch the player’s attention and act as small distractions. 
+        They often include jokes and amusing references. Still, to avoid them becoming 
+        overwhelming and confusing the player when they need to interact with them, 
+        they are generally consistent in colour and layout, and the "calls to action" 
+        they contain are clearly distinct from the actual clickable buttons used in the game.
+        In addition, the different types of sharable pop-ups are identified by their dominating colour, 
+        making them clearly recognisable. I worked closely with the Concept Art department 
+        to develop the pop-ups’ visual identity, test numerous variations, 
+        and adapt them to gameplay needs.
+      </p>
+    </div>
+
+    <div class="projectDescriptionBox">
+      <!--<div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_LevelDeisgn.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_PauseMenu.png" alt="Level layout" style="width:60%;height:60%;">
+        </a>
+        <p>Level 2 first layout</p>
+      </div>-->
+      <h4>UI/UX</h4>
+      <p>
+        The pop-up motif was also integrated in the game’s menus, though adapted to be cleaner 
+        and more easily readable. Each menu is depicted as a pop-up, with every option to exit 
+        a menu or quit the game being represented by the unmistakable “X” atop most pop-ups, 
+        mirroring the action frequently performed during gameplay.
+      </p>
+    </div>
+
+    <div class="projectDescriptionBox">
+      <div class="projectDescriptionImages">
+        <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_LevelDeisgn.png" target="_blank" id="imageLink">
+          <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_LevelDeisgn.png" alt="Level layout" style="width:90%;height:90%;">
+        </a>
+        <p>Level 2 first layout</p>
+      </div>
+      <h4>Level Design</h4>
+      <p>
+        Each level was designed with the purpose of teaching the player about one or more aspects 
+        of the game, acting as one part of the skill chain. Starting from the relative skill, 
+        the floor layout was then developed, adding enemies and transmitters to determine the 
+        player’s expected route and force interaction with the newly introduced mechanic. 
+        The level was then built in engine, and tweaked after testing.  
+      </p>
+    </div>
+
+
+    <div class="projectScreens">
+      <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_Screenshot2.png" target="_blank" id="imageLink">
+        <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_Screenshot2.png" alt="The Adblocker gameplay screenshot" style="width:40%;height:40%;">
+      </a>
+      <a href="IMGs/ProjectMedia/TheAdblocker/Adblocker_Screenshot3.png" target="_blank" id="imageLink">
+        <img src="IMGs/ProjectMedia/TheAdblocker/Adblocker_Screenshot3.png" alt="The Adblocker gameplay Screenshot" style="width:40%;height:40%;">
+      </a>
+      <!--<iframe width="728" height="409" src="https://www.youtube.com/embed/cbGGaQxaXkU?si=P5xjwQRdvRzi0ccP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+    </div>
+
+
+    <div class="downloadExe">
+      <!--<a href="IMGs/ProjectMedia/Individuopolis/" download="Individuopolis_Build_1.03">Download the build!</a>-->
+    </div>
+
+
+    <div>
+      <div class="projectNavPost"><a href="project-alienwhaleproject.html">⇜ <em>AlienWhaleProject</em></b></a></div>
+      <div class="projectNavPrev"><a href="project-pigsfly.html"><em>PigsFly</em> ⇝</a></div>
+    </div>
+
+    <div class="footer" id="contactsFooter">
+      <h2>Get in touch</h2>
+      <a href="mailto:valeria.passarella2003@gmail.com">valeria.passarella2003@gmail.com</a>
+      <div class="iconLinks">
+        <a href="https://www.linkedin.com/in/valeria-passarella-037891230/"><img src="IMGs/Icons/LinkedIn_icon.png" style="width:2%;height:2%;" title="LinkedIn"></a>
+        <a href="https://valfezant.itch.io/"><img src="IMGs/Icons/Itch.io_icon.png" style="width:2%;height:2%;" title="Itch.io"></a>
+      </div>
+    </div>
+    
+  </body>
+</html>
