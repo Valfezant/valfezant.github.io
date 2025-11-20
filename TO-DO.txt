@@ -2,19 +2,14 @@ PAGINE
 - antura
 - Progetti teamwork
 	- playthrough
-- Paper tactics?
-
 - Monkey
 	- Build? O playthrough?
 	- Sezione migliorie?
 
 [antura] > indi > SDG > 
-Llama > Monke > [GuildRush] > 
-Octo > Whale > Ad > (Paper) > Pigs
-
-ant > indi > SDG > 
-Llama > Monke > Octo > 
-Whale > Ad > Pigs
+Llama > Monke > GuildRush > 
+paper > Octo > Whale > 
+Ad > Pigs
 
 
 CSS

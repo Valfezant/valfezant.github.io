@@ -567,6 +567,18 @@ body
 }
 
 
+.projectDescriptionBox>h6>a
+{
+  color: rgb(0, 0, 0);
+}
+
+.projectDescriptionBox>h6>a:visited
+{
+  color: rgb(0, 0, 0);
+}
+
+
+
 
 .projectScreens
 {
