@@ -394,6 +394,12 @@ body
   color: rgb(188, 147, 147);
 }
 
+.aboutBox>p>a:hover
+{
+  color: rgb(255, 255, 255);
+}
+
+
 .cvContainer
 {
   position: relative;
@@ -575,6 +581,31 @@ body
 .projectDescriptionBox>h6>a:visited
 {
   color: rgb(0, 0, 0);
+}
+
+.projectDescriptionBox>h6>a:hover
+{
+  color: rgb(255, 255, 255);
+}
+
+.projectPitchBox>p>a
+{
+  color: rgb(0, 0, 0);
+}
+
+.projectPitchBox>p>a:visited
+{
+  color: rgb(0, 0, 0);
+}
+
+.projectPitchBox>p>a
+{
+  color: rgb(0, 0, 0);
+}
+
+.projectPitchBox>p>a:hover
+{
+  color: rgb(255, 255, 255);
 }
 
 

@@ -1,12 +1,11 @@
 PAGINE
-- antura
 - Progetti teamwork
 	- playthrough
 - Monkey
 	- Build? O playthrough?
 	- Sezione migliorie?
 
-[antura] > indi > SDG > 
+antura > indi > SDG > 
 Llama > Monke > GuildRush > 
 paper > Octo > Whale > 
 Ad > Pigs
@@ -18,5 +17,8 @@ CSS
 - Colore sfondo
 - Dimensione textbox nei progetti
 - altri font?
+- Spazio dopo imagebox >>> controlla collaterali
+
+- comprimi immagini
 
 
