@@ -353,6 +353,11 @@ body
   text-align: center;
 }
 
+.projectShowcaseRow>.projectShowcase
+{
+  padding: 1% 0 0 0;
+}
+
 .projectShowcaseRow>.projectShowcase>h4
 {
   margin: 0  0 2% 0;
@@ -495,6 +500,26 @@ body
 
   display: inline-block;
 }
+
+.stat>h3>a
+{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.stat>h3>a:visited
+{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.stat>h3>a:hover
+{
+  color: rgb(255, 255, 255);
+}
+
+
+
 
 .projectPitchBox
 {

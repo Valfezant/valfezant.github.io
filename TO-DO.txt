@@ -1,9 +1,9 @@
-PAGINE
+MEDIA
 - Progetti teamwork
-	- playthrough
 - Monkey
-	- Build? O playthrough?
+	- Build?
 	- Sezione migliorie?
+
 
 antura > indi > SDG > 
 Llama > Monke > GuildRush > 
@@ -12,7 +12,6 @@ Ad > Pigs
 
 
 CSS
-- Migliora selezione progetto
 - Diversi colori se progetti team o individuali?
 - Colore sfondo
 - Dimensione textbox nei progetti
